@@ -2,14 +2,13 @@
 # Copyright (c) 2020, 2024, Oracle and/or its affiliates.
 # Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 
-FROM oraclelinux:8
+FROM ubuntu:22.04
 ARG BRANCH=master
 LABEL "provider"="Oracle" \
       "issues"="https://github.com/oracle/oci-designer-toolkit/issues" \
       "version"="0.70.0" \
       "description"="OKIT Web Server Container." \
       "copyright"="Copyright (c) 2020, 2024, Oracle and/or its affiliates."
-# SHELL ["/bin/bash", "-c"]
 ENV PYTHONIOENCODING=utf8 \
     PYTHONPATH=":/okit/modules:/okit/okitserver:/okit" \
     FLASK_APP=okitserver \
@@ -19,22 +18,22 @@ ENV PYTHONIOENCODING=utf8 \
     LC_ALL=en_GB.UTF-8 \
     PATH=/root/bin:${PATH} \
     OKIT_DIR=/okit \
-    OKIT_GITHUB_DIR=/okit_github
+    OKIT_GITHUB_DIR=/okit_github \
+    DEBIAN_FRONTEND=noninteractive
 # Expose Ports
-EXPOSE 9005
-# Install new yum repos
-RUN yum install -y \
-    oraclelinux-developer-release-el8 \
-# Update base image
- && yum update -y \
+EXPOSE 5000
+# Update base image and install packages
+RUN apt-get update \
 # Install additional packages
- && yum install -y \
+ && apt-get install -y \
         git \
         openssl \
-        python38 \
+        python3.8 \
         python3-pip \
- && rm -rf /var/cache/yum \
- && alternatives --set python3 /usr/bin/python3.8 \
+        python3-dev \
+        build-essential \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/* \
 # Configure ssh
  && echo 'Host *' > /etc/ssh/ssh_config \
  && echo '  StrictHostKeyChecking no' >> /etc/ssh/ssh_config \
@@ -45,7 +44,7 @@ RUN yum install -y \
  && mkdir -p ${OKIT_GITHUB_DIR} \
  && echo "Branch: $BRANCH" \
  && git clone --branch $BRANCH --single-branch \
-            --config core.autocrlf=input \ 
+            --config core.autocrlf=input \
             https://github.com/oracle/oci-designer-toolkit.git ${OKIT_GITHUB_DIR}/oci-designer-toolkit \
  && mkdir -p ${OKIT_DIR}/{git,local,log,instance/git,instance/local,instance/templates/user,workspace,ssl} \
  && mkdir -p /root/bin \

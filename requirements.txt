@@ -5,7 +5,7 @@ flask>=1.1.2
 gitpython
 git-url-parse
 gunicorn>=20.0.4
-oci
+oci>=2.100.0,<3.0.0
 openpyxl
 python-magic>=0.4.22
 pyyaml>=5.4.1
