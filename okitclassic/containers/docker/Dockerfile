@@ -2,7 +2,7 @@
 # Copyright (c) 2020, 2024, Oracle and/or its affiliates.
 # Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 
-FROM ubuntu:22.04
+FROM oraclelinux:8
 ARG BRANCH=master
 LABEL "provider"="Oracle" \
       "issues"="https://github.com/oracle/oci-designer-toolkit/issues" \
@@ -22,10 +22,10 @@ ENV PYTHONIOENCODING=utf8 \
 # Expose Ports
 EXPOSE 5000
 # Update base image and install packages
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN yum update -y && yum install -y \
         python3 \
         python3-pip && \
-    apt-get clean && rm -rf /var/lib/apt/lists/* && \
+    yum clean all && rm -rf /var/cache/yum/* && \
     python3 -m pip install --upgrade pip && \
     mkdir -p ${OKIT_DIR}/{git,local,log,instance/git,instance/local,instance/templates/user,workspace,ssl} && \
     mkdir -p /root/bin
