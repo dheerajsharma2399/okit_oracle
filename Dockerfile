@@ -30,7 +30,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     mkdir -p ${OKIT_DIR}/{git,local,log,instance/git,instance/local,instance/templates/user,workspace,ssl} && \
     mkdir -p /root/bin
 # Copy local code
-COPY requirements.txt /tmp/requirements.txt
+COPY requirements.txt ${OKIT_DIR}/requirements.txt
 COPY okitclassic/config ${OKIT_DIR}/config
 COPY okitclassic/okitserver ${OKIT_DIR}/okitserver
 COPY okitclassic/modules ${OKIT_DIR}/modules
@@ -38,6 +38,6 @@ COPY okitclassic/containers/docker/run-server.sh /root/bin/run-server.sh
 COPY okitclassic/okitserver/static/okit/templates/reference_architecture ${OKIT_DIR}/instance/templates/reference_architecture
 RUN chmod a+x /root/bin/run-server.sh \
 # Install required python modules
- && python3 -m pip install --no-cache-dir -r /tmp/requirements.txt
+ && python3 -m pip install --no-cache-dir -r ${OKIT_DIR}/requirements.txt
 # Add entrypoint to automatically start webserver
 CMD ["run-server.sh"]
