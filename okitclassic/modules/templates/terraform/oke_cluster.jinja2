@@ -1,0 +1,106 @@
+{# Copyright (c) 2020, 2024, Oracle and/or its affiliates. #}
+{# Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl. #}
+
+{% if read_only %}
+# ------ Read OKE Cluster
+data "oci_containerengine_clusters" "{{ resource_name }}" {
+    # Required
+    compartment_id = {{ compartment_id }}
+    filter {
+        name = "id"
+        values = [{{ ocid | safe }}]
+    }
+}
+
+locals {
+    {{ resource_name }}_id = {{ ocid | safe }}
+    {{ resource_name }}_ocid = {{ ocid | safe }}
+}
+{% else %}
+# ------ Create OKE Cluster
+resource "oci_containerengine_cluster" "{{ resource_name }}" {
+    #Required
+    compartment_id     = {{ compartment_id }}
+    kubernetes_version = {{ kubernetes_version | safe }}
+    name               = {{ display_name | safe }}
+    vcn_id             = {{ vcn_id }}
+
+    #Optional
+{% if type is defined %}
+    type               = {{ type | safe }}
+{% endif %}
+{% if kms_key_id is defined %}
+    kms_key_id         = {{ kms_key_id | safe}}
+{% endif %}
+{% if cluster_pod_network_options is defined %}
+    {% for option in cluster_pod_network_options %}
+    cluster_pod_network_options {
+        #Required
+        {% if option.cni_type is defined %}
+        cni_type = {{ option.cni_type | safe }}
+        {% endif %}
+    }
+    {% endfor %}
+{% endif %}
+{% if endpoint_config is defined %}
+    endpoint_config {
+        #Optional
+    {% if endpoint_config.is_public_ip_enabled is defined %}
+        is_public_ip_enabled = {{ endpoint_config.is_public_ip_enabled | safe | lower }}
+    {% endif %}
+    {% if endpoint_config.is_public_ip_enabled is defined %}
+        nsg_ids = [{% for nsg_id in endpoint_config.nsg_ids %}{{ nsg_id }}{% if not loop.last %},{% endif %}{% endfor %}]
+    {% endif %}
+    {% if endpoint_config.subnet_id is defined %}
+        subnet_id = {{ endpoint_config.subnet_id }}
+    {% endif %}
+    }
+{% endif %}
+{% if options is defined %}
+    options {
+        #Optional
+    {% if options.add_ons is defined %}
+        add_ons {
+            #Optional
+            is_kubernetes_dashboard_enabled = {{ options.add_ons.is_kubernetes_dashboard_enabled | safe | lower }}
+            is_tiller_enabled               = {{ options.add_ons.is_tiller_enabled | safe | lower }}
+        }
+    {% endif %}
+    {% if options.admission_controller_options is defined %}
+        admission_controller_options {
+            #Optional
+            is_pod_security_policy_enabled  = {{ options.admission_controller_options.is_pod_security_policy_enabled | safe | lower }}
+        }
+    {% endif %}
+    {% if options.kubernetes_network_config is defined %}
+        kubernetes_network_config {
+            #Optional
+        {% if options.kubernetes_network_config.pods_cidr is defined %}
+            pods_cidr                       = {{ options.kubernetes_network_config.pods_cidr | safe }}
+        {% endif %}
+        {% if options.kubernetes_network_config.services_cidr is defined %}
+            services_cidr                   = {{ options.kubernetes_network_config.services_cidr | safe }}
+        {% endif %}
+        }
+    {% endif %}
+    {% if options.service_lb_subnet_ids is defined %}
+        service_lb_subnet_ids = [{% for id in options.service_lb_subnet_ids %}{{ id }}{% if not loop.last %},{% endif %}{% endfor %}]
+    {% endif %}
+    }
+{% endif %}
+{% if defined_tags is defined %}
+    defined_tags   = {{ defined_tags | safe }}
+{% endif %}
+{% if freeform_tags is defined %}
+    freeform_tags  = {{ freeform_tags | safe }}
+{% endif %}
+    timeouts {
+        create = "4h"
+    }
+}
+
+locals {
+    {{ resource_name }}_id            = oci_containerengine_cluster.{{ resource_name }}.id
+}
+
+{% endif %}

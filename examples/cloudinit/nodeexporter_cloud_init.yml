@@ -1,0 +1,50 @@
+# Copyright (c) 2020, Oracle and/or its affiliates. All rights reserved.
+# Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+#cloud-config
+users:
+  - default
+  - name: node_exporter
+    homedir: /bin/false
+
+write_files:
+  # Wget Configuration
+  - path: /etc/wgetrc
+    append: true
+    content: |
+      #http_proxy = Add Proxy Here
+      #https_proxy = Add Proxy Here
+      #use_proxy = on
+  # Add Node Export Service file
+  - path: /etc/systemd/system/node_exporter.service
+    content: |
+      [Unit]
+      Description=Node Exporter
+      After=network.target
+
+      [Service]
+      User=node_exporter
+      Group=node_exporter
+      Type=simple
+      ExecStart=/usr/local/bin/node_exporter --collector.processes --collector.systemd
+
+      [Install]
+      WantedBy=multi-user.target
+
+runcmd:
+  - echo ">>> Creating Directory"
+  - mkdir -p /run/install/node_exporter
+  - echo ">>> Getting Node Exporter"
+  - wget https://github.com/prometheus/node_exporter/releases/download/v1.5.0/node_exporter-1.5.0.linux-amd64.tar.gz -O /run/install/node_exporter.tar.gz
+  - echo ">>> Extracting Node Exporter"
+  - tar xvfz /run/install/node_exporter.tar.gz -C /run/install/node_exporter --strip-components=1
+  - echo ">>> Moving Node Exporter"
+  - mv /run/install/node_exporter/node_exporter /usr/local/bin/
+  - echo ">>> Starting Node Exporter Service"
+  - systemctl daemon-reload
+  - systemctl start node_exporter
+  - systemctl enable node_exporter
+  - echo ">>> Configuring Firewall"
+  - firewall-offline-cmd --add-port=9100/tcp 
+  - systemctl restart firewalld
+
+final_message: "**** The system is finally up, after $UPTIME seconds ****"

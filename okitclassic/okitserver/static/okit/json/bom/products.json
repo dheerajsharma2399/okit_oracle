@@ -1,0 +1,1911 @@
+{
+    "items": [
+        {
+            "id": "10000",
+            "partNumber": "B87849",
+            "partInventoryItemId": "3865366",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B87849 - Free Oracle Cloud Promotion - Student",
+            "shortDisplayName": "B87849 - Free Oracle Cloud Promotion - Student",
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 1
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B87849 - Free Oracle Cloud Promotion - Student",
+                    "shortDisplayName": "B87849 - Free Oracle Cloud Promotion - Student"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10000"
+        },
+        {
+            "id": "10052",
+            "partNumber": "B88206",
+            "partInventoryItemId": "3953631",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88206 - Oracle PaaS and IaaS Universal Credits",
+            "shortDisplayName": "B88206 - Oracle PaaS and IaaS Universal Credits",
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 1
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88206 - Oracle PaaS and IaaS Universal Credits",
+                    "shortDisplayName": "B88206 - Oracle PaaS and IaaS Universal Credits"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10052"
+        },
+        {
+            "id": "10050",
+            "partNumber": "B87848",
+            "partInventoryItemId": "3865364",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B87848 - Free Oracle Cloud Promotion - Oracle Code",
+            "shortDisplayName": "B87848 - Free Oracle Cloud Promotion - Oracle Code",
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 1
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B87848 - Free Oracle Cloud Promotion - Oracle Code",
+                    "shortDisplayName": "B87848 - Free Oracle Cloud Promotion - Oracle Code"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10050"
+        },
+        {
+            "id": "10072",
+            "partNumber": "B89163",
+            "partInventoryItemId": "4122276",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "Oracle Management Cloud Log Analytics Edition (B89163) includes: Log \nAnalytics. One unit of Log Analytics Edition covers 300 GB of total indexed \nlog data per hour.",
+            "displayName": "B89163 - Oracle Management Cloud - Log Analytics Edition - 300 Gigabytes Per Hour",
+            "shortDisplayName": "Log Analytics Edition",
+            "metricDisplayName": "300 Gigabytes Per Hour",
+            "serviceCategoryDisplayName": "Management",
+            "serviceDefinition": {
+                "id": "593033767",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/593033767"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.3226
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.215067
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "Oracle Management Cloud Log Analytics Edition (B89163) includes: Log \nAnalytics. One unit of Log Analytics Edition covers 300 GB of total indexed \nlog data per hour.",
+                    "displayName": "B89163 - Oracle Management Cloud - Log Analytics Edition - 300 Gigabytes Per Hour",
+                    "shortDisplayName": "Log Analytics Edition",
+                    "metricDisplayName": "300 Gigabytes Per Hour",
+                    "serviceCategoryDisplayName": "Management"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10072"
+        },
+        {
+            "id": "10076",
+            "partNumber": "B88288",
+            "partInventoryItemId": "3953623",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88288 - Oracle Java Cloud Service - Standard - OCPU Per Hour",
+            "shortDisplayName": "Standard",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Java",
+            "serviceDefinition": {
+                "id": "501515133",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/501515133"
+            },
+            "prices": [
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.206467
+                },
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.3097
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88288 - Oracle Java Cloud Service - Standard - OCPU Per Hour",
+                    "shortDisplayName": "Standard",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Java"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10076"
+        },
+        {
+            "id": "10085",
+            "partNumber": "B88516",
+            "partInventoryItemId": "3967389",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "Note: Additional OCPUs should be purchased in increments of 4 OCPUs Per Hour.",
+            "displayName": "B88516 - Oracle Cloud Infrastructure - Compute - Virtual Machine Dense I/O - X7 - OCPU Per Hour",
+            "shortDisplayName": "Compute - Virtual Machine Dense I/O - X7",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Compute",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.1275
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.1275
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "Note: Additional OCPUs should be purchased in increments of 4 OCPUs Per Hour.",
+                    "displayName": "B88516 - Oracle Cloud Infrastructure - Compute - Virtual Machine Dense I/O - X7 - OCPU Per Hour",
+                    "shortDisplayName": "Compute - Virtual Machine Dense I/O - X7",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Compute"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10085"
+        },
+        {
+            "id": "10099",
+            "partNumber": "B88298",
+            "partInventoryItemId": "3953598",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88298 - Oracle WebCenter Portal Cloud Service - OCPU Per Hour",
+            "shortDisplayName": "Standard",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "WebCenter Portal",
+            "serviceDefinition": {
+                "id": "501515133",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/501515133"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.7742
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.516133
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88298 - Oracle WebCenter Portal Cloud Service - OCPU Per Hour",
+                    "shortDisplayName": "Standard",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "WebCenter Portal"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10099"
+        },
+        {
+            "id": "10100",
+            "partNumber": "B88594",
+            "partInventoryItemId": "3967307",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "44 enabled OCPUs.\nUp to 124 additional OCPU's (purchased separately).\n4 DB nodes with 720 GB RAM per node.\n576 TB raw storage or 168 TB of usable storage.\nUnlimited I/Os.",
+            "displayName": "B88594 - Oracle Cloud Infrastructure - Database Exadata Half Rack - X6 - Hosted Environment Per Hour",
+            "shortDisplayName": "Half Rack - X6 (OCI)",
+            "metricDisplayName": "Hosted Environment Per Hour",
+            "serviceCategoryDisplayName": "Exadata",
+            "serviceDefinition": {
+                "id": "574323696",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/574323696"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "EDITION",
+                    "value": "Exadata Cloud Service"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 102.1506
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 68.1004
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "44 enabled OCPUs.\nUp to 124 additional OCPU's (purchased separately).\n4 DB nodes with 720 GB RAM per node.\n576 TB raw storage or 168 TB of usable storage.\nUnlimited I/Os.",
+                    "displayName": "B88594 - Oracle Cloud Infrastructure - Database Exadata Half Rack - X6 - Hosted Environment Per Hour",
+                    "shortDisplayName": "Half Rack - X6 (OCI)",
+                    "metricDisplayName": "Hosted Environment Per Hour",
+                    "serviceCategoryDisplayName": "Exadata",
+                    "eligibleSelections": [
+                        {
+                            "name": "EDITION",
+                            "value": "Exadata Cloud Service"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10100"
+        },
+        {
+            "id": "10101",
+            "partNumber": "B88595",
+            "partInventoryItemId": "3967308",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "88 enabled OCPUs.\nUp to 248 additional OCPU's (purchased separately).\n8 DB nodes with 720 GB RAM per node.\n1,152 TB raw storage or 336 TB of usable storage.\nUnlimited I/Os",
+            "displayName": "B88595 - Oracle Cloud Infrastructure - Database Exadata Full Rack - X6 - Hosted Environment Per Hour",
+            "shortDisplayName": "Full Rack - X6 (OCI)",
+            "metricDisplayName": "Hosted Environment Per Hour",
+            "serviceCategoryDisplayName": "Exadata",
+            "serviceDefinition": {
+                "id": "574323696",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/574323696"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "EDITION",
+                    "value": "Exadata Cloud Service"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 204.3011
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 136.200734
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "88 enabled OCPUs.\nUp to 248 additional OCPU's (purchased separately).\n8 DB nodes with 720 GB RAM per node.\n1,152 TB raw storage or 336 TB of usable storage.\nUnlimited I/Os",
+                    "displayName": "B88595 - Oracle Cloud Infrastructure - Database Exadata Full Rack - X6 - Hosted Environment Per Hour",
+                    "shortDisplayName": "Full Rack - X6 (OCI)",
+                    "metricDisplayName": "Hosted Environment Per Hour",
+                    "serviceCategoryDisplayName": "Exadata",
+                    "eligibleSelections": [
+                        {
+                            "name": "EDITION",
+                            "value": "Exadata Cloud Service"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10101"
+        },
+        {
+            "id": "10102",
+            "partNumber": "B88592",
+            "partInventoryItemId": "3967309",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "Additional enabled OCPUs.",
+            "displayName": "B88592 - Oracle Cloud Infrastructure - Database Exadata OCPU - OCPU Per Hour",
+            "shortDisplayName": "Additional OCPU's",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Exadata",
+            "serviceDefinition": {
+                "id": "574323696",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/574323696"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1.3441
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.896067
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "Additional enabled OCPUs.",
+                    "displayName": "B88592 - Oracle Cloud Infrastructure - Database Exadata OCPU - OCPU Per Hour",
+                    "shortDisplayName": "Additional OCPU's",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Exadata"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10102"
+        },
+        {
+            "id": "10103",
+            "partNumber": "B88593",
+            "partInventoryItemId": "3967304",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "22 enabled OCPUs.\nUp to 62 additional OCPU's (purchased separately).\n2 DB nodes with 720 GB RAM per node.\n288 TB raw storage or 84 TB of usable storage.\nUnlimited I/Os.",
+            "displayName": "B88593 - Oracle Cloud Infrastructure - Database Exadata Quarter Rack - X6 - Hosted Environment Per Hour",
+            "shortDisplayName": "Quarter Rack - X6 (OCI)",
+            "metricDisplayName": "Hosted Environment Per Hour",
+            "serviceCategoryDisplayName": "Exadata",
+            "serviceDefinition": {
+                "id": "574323696",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/574323696"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "EDITION",
+                    "value": "Exadata Cloud Service"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 51.0753
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 34.0502
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "22 enabled OCPUs.\nUp to 62 additional OCPU's (purchased separately).\n2 DB nodes with 720 GB RAM per node.\n288 TB raw storage or 84 TB of usable storage.\nUnlimited I/Os.",
+                    "displayName": "B88593 - Oracle Cloud Infrastructure - Database Exadata Quarter Rack - X6 - Hosted Environment Per Hour",
+                    "shortDisplayName": "Quarter Rack - X6 (OCI)",
+                    "metricDisplayName": "Hosted Environment Per Hour",
+                    "serviceCategoryDisplayName": "Exadata",
+                    "eligibleSelections": [
+                        {
+                            "name": "EDITION",
+                            "value": "Exadata Cloud Service"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10103"
+        },
+        {
+            "id": "10117",
+            "partNumber": "B88405",
+            "partInventoryItemId": "3967340",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88405 - Oracle WebCenter Portal Cloud Service - BYOL - OCPU Per Hour",
+            "shortDisplayName": "BYOL",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "WebCenter Portal",
+            "serviceDefinition": {
+                "id": "501515133",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/501515133"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.1935
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.129
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88405 - Oracle WebCenter Portal Cloud Service - BYOL - OCPU Per Hour",
+                    "shortDisplayName": "BYOL",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "WebCenter Portal"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10117"
+        },
+        {
+            "id": "10131",
+            "partNumber": "B88398",
+            "partInventoryItemId": "3967367",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88398 - Oracle GoldenGate Cloud Service - Enterprise - BYOL - OCPU Per Hour",
+            "shortDisplayName": "Enterprise - BYOL - Metered",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "GoldenGate",
+            "serviceDefinition": {
+                "id": "520550888",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/520550888"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.1935
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.129
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88398 - Oracle GoldenGate Cloud Service - Enterprise - BYOL - OCPU Per Hour",
+                    "shortDisplayName": "Enterprise - BYOL - Metered",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "GoldenGate"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10131"
+        },
+        {
+            "id": "10132",
+            "partNumber": "B88320",
+            "partInventoryItemId": "3953639",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88320 - Oracle Cloud Infrastructure - 400 Mbps Load Balancer - Load Balancer Hour",
+            "shortDisplayName": "400 Mbps Load Balancer",
+            "metricDisplayName": "Load Balancer Hour",
+            "serviceCategoryDisplayName": "Load Balancer",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.085
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.085
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88320 - Oracle Cloud Infrastructure - 400 Mbps Load Balancer - Load Balancer Hour",
+                    "shortDisplayName": "400 Mbps Load Balancer",
+                    "metricDisplayName": "Load Balancer Hour",
+                    "serviceCategoryDisplayName": "Load Balancer"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10132"
+        },
+        {
+            "id": "10091",
+            "partNumber": "B88518",
+            "partInventoryItemId": "3967391",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88518 - Oracle Cloud Infrastructure - Compute - Virtual Machine GPU Standard - X7 - GPU Per Hour",
+            "shortDisplayName": "Compute - Virtual Machine GPU Standard - X7",
+            "metricDisplayName": "GPU Per Hour",
+            "serviceCategoryDisplayName": "Compute",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1.275
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 1.275
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88518 - Oracle Cloud Infrastructure - Compute - Virtual Machine GPU Standard - X7 - GPU Per Hour",
+                    "shortDisplayName": "Compute - Virtual Machine GPU Standard - X7",
+                    "metricDisplayName": "GPU Per Hour",
+                    "serviceCategoryDisplayName": "Compute"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10091"
+        },
+        {
+            "id": "10098",
+            "partNumber": "B88299",
+            "partInventoryItemId": "3953611",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88299 - Oracle Data Integrator Cloud Service - OCPU Per Hour",
+            "shortDisplayName": "Standard",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Data Integrator",
+            "serviceDefinition": {
+                "id": "501515133",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/501515133"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.7742
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.516133
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88299 - Oracle Data Integrator Cloud Service - OCPU Per Hour",
+                    "shortDisplayName": "Standard",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Data Integrator"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10098"
+        },
+        {
+            "id": "10129",
+            "partNumber": "B88412",
+            "partInventoryItemId": "3954364",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "1 Pluggable Database (PDB) of Oracle Enterprise Edition running on Exadata.",
+            "displayName": "B88412 - Oracle Database Exadata Express Cloud Service - X1000IM - Hosted Environment Per Hour",
+            "shortDisplayName": "Exadata Express Cloud Service - X1000IM",
+            "metricDisplayName": "Hosted Environment Per Hour",
+            "serviceCategoryDisplayName": "Exadata Express",
+            "serviceDefinition": {
+                "id": "539917625",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/539917625"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "EDITION",
+                    "value": "Exadata Express Cloud Service"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 4.3011
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 2.8674
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "1 Pluggable Database (PDB) of Oracle Enterprise Edition running on Exadata.",
+                    "displayName": "B88412 - Oracle Database Exadata Express Cloud Service - X1000IM - Hosted Environment Per Hour",
+                    "shortDisplayName": "Exadata Express Cloud Service - X1000IM",
+                    "metricDisplayName": "Hosted Environment Per Hour",
+                    "serviceCategoryDisplayName": "Exadata Express",
+                    "eligibleSelections": [
+                        {
+                            "name": "EDITION",
+                            "value": "Exadata Express Cloud Service"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10129"
+        },
+        {
+            "id": "10056",
+            "partNumber": "B88318",
+            "partInventoryItemId": "3953511",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "1 OCPU Windows Server Standard license",
+            "displayName": "B88318 - Oracle Cloud Infrastructure - Compute - Windows OS - OCPU Per Hour",
+            "shortDisplayName": "Windows OS",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Compute",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.092
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.092
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "1 OCPU Windows Server Standard license",
+                    "displayName": "B88318 - Oracle Cloud Infrastructure - Compute - Windows OS - OCPU Per Hour",
+                    "shortDisplayName": "Windows OS",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Compute"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10056"
+        },
+        {
+            "id": "10059",
+            "partNumber": "B88315",
+            "partInventoryItemId": "3953643",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "Note: Additional OCPUs should be purchased in increments of 36 OCPUs Per Hour.",
+            "displayName": "B88315 - Oracle Cloud Infrastructure - Compute - Bare Metal Standard - X5 - OCPU Per Hour",
+            "shortDisplayName": "Bare Metal Standard - X5",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Compute Bare Metal",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.0638
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.0638
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "Note: Additional OCPUs should be purchased in increments of 36 OCPUs Per Hour.",
+                    "displayName": "B88315 - Oracle Cloud Infrastructure - Compute - Bare Metal Standard - X5 - OCPU Per Hour",
+                    "shortDisplayName": "Bare Metal Standard - X5",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Compute Bare Metal"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10059"
+        },
+        {
+            "id": "10088",
+            "partNumber": "B88517",
+            "partInventoryItemId": "3967390",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "28 cores and 2 GPUs.\nNote: Additional GPUs should be purchased in increments 2 GPUs Per Hour.",
+            "displayName": "B88517 - Oracle Cloud Infrastructure - Compute - Bare Metal GPU Standard - X7 - GPU Per Hour",
+            "shortDisplayName": "Bare Metal GPU Standard - X7",
+            "metricDisplayName": "GPU Per Hour",
+            "serviceCategoryDisplayName": "Compute Bare Metal",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1.275
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 1.275
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "28 cores and 2 GPUs.\nNote: Additional GPUs should be purchased in increments 2 GPUs Per Hour.",
+                    "displayName": "B88517 - Oracle Cloud Infrastructure - Compute - Bare Metal GPU Standard - X7 - GPU Per Hour",
+                    "shortDisplayName": "Bare Metal GPU Standard - X7",
+                    "metricDisplayName": "GPU Per Hour",
+                    "serviceCategoryDisplayName": "Compute Bare Metal"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10088"
+        },
+        {
+            "id": "10053",
+            "partNumber": "B87850",
+            "partInventoryItemId": "3865365",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B87850 - Free Oracle Cloud Promotion - Educator",
+            "shortDisplayName": "B87850 - Free Oracle Cloud Promotion - Educator",
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 1
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B87850 - Free Oracle Cloud Promotion - Educator",
+                    "shortDisplayName": "B87850 - Free Oracle Cloud Promotion - Educator"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10053"
+        },
+        {
+            "id": "10060",
+            "partNumber": "B88317",
+            "partInventoryItemId": "3953520",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88317 - Oracle Cloud Infrastructure - Compute - Virtual Machine Standard - X5 - OCPU Per Hour",
+            "shortDisplayName": "Virtual Machine Standard - X5",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Compute",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.0638
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.0638
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88317 - Oracle Cloud Infrastructure - Compute - Virtual Machine Standard - X5 - OCPU Per Hour",
+                    "shortDisplayName": "Virtual Machine Standard - X5",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Compute"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10060"
+        },
+        {
+            "id": "10061",
+            "partNumber": "B88310",
+            "partInventoryItemId": "3953492",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "1 terabyte of storage.",
+            "displayName": "B88310 - Oracle GoldenGate Cloud Service - Enterprise - OCPU Per Hour",
+            "shortDisplayName": "Enterprise - Metered",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "GoldenGate",
+            "serviceDefinition": {
+                "id": "520550888",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/520550888"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.7742
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.516133
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "1 terabyte of storage.",
+                    "displayName": "B88310 - Oracle GoldenGate Cloud Service - Enterprise - OCPU Per Hour",
+                    "shortDisplayName": "Enterprise - Metered",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "GoldenGate"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10061"
+        },
+        {
+            "id": "10075",
+            "partNumber": "B89161",
+            "partInventoryItemId": "4122273",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "Oracle Management Cloud Standard Edition (B89161) includes: Application \nPerformance Monitoring and Infrastructure Monitoring. One unit of Standard \nEdition covers 100 entities per hour and 14 days data retention.",
+            "displayName": "B89161 - Oracle Management Cloud - Standard Edition - 100 Entities Per Hour",
+            "shortDisplayName": "Standard Edition",
+            "metricDisplayName": "100 Entities Per Hour",
+            "serviceCategoryDisplayName": "Management",
+            "serviceDefinition": {
+                "id": "593033767",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/593033767"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "EDITION",
+                    "value": "Standard Edition"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.6721
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.448067
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "Oracle Management Cloud Standard Edition (B89161) includes: Application \nPerformance Monitoring and Infrastructure Monitoring. One unit of Standard \nEdition covers 100 entities per hour and 14 days data retention.",
+                    "displayName": "B89161 - Oracle Management Cloud - Standard Edition - 100 Entities Per Hour",
+                    "shortDisplayName": "Standard Edition",
+                    "metricDisplayName": "100 Entities Per Hour",
+                    "serviceCategoryDisplayName": "Management",
+                    "eligibleSelections": [
+                        {
+                            "name": "EDITION",
+                            "value": "Standard Edition"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10075"
+        },
+        {
+            "id": "10084",
+            "partNumber": "B88854",
+            "partInventoryItemId": "3967374",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "88 enabled OCPUs.\nUp to 248 additional OCPU's (purchased separately).\n8 DB nodes with 720 GB RAM per node.\n1,152 TB raw storage or 336 TB of usable storage.\nUnlimited I/Os.",
+            "displayName": "B88854 - Oracle Cloud Infrastructure - Database Exadata Full Rack - X6 - BYOL - Hosted Environment Per Hour",
+            "shortDisplayName": "Full Rack - X6 - BYOL (OCI)",
+            "metricDisplayName": "Hosted Environment Per Hour",
+            "serviceCategoryDisplayName": "Exadata",
+            "serviceDefinition": {
+                "id": "574323696",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/574323696"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "EDITION",
+                    "value": "Exadata Cloud Service - BYOL Edition"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 135.914
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 90.60933
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "88 enabled OCPUs.\nUp to 248 additional OCPU's (purchased separately).\n8 DB nodes with 720 GB RAM per node.\n1,152 TB raw storage or 336 TB of usable storage.\nUnlimited I/Os.",
+                    "displayName": "B88854 - Oracle Cloud Infrastructure - Database Exadata Full Rack - X6 - BYOL - Hosted Environment Per Hour",
+                    "shortDisplayName": "Full Rack - X6 - BYOL (OCI)",
+                    "metricDisplayName": "Hosted Environment Per Hour",
+                    "serviceCategoryDisplayName": "Exadata",
+                    "eligibleSelections": [
+                        {
+                            "name": "EDITION",
+                            "value": "Exadata Cloud Service - BYOL Edition"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10084"
+        },
+        {
+            "id": "10068",
+            "partNumber": "B88308",
+            "partInventoryItemId": "3953578",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88308 - Oracle Big Data Cloud Service - Compute Edition - Storage Capacity - Gigabyte Storage Capacity Per Month",
+            "shortDisplayName": "Storage Capacity",
+            "metricDisplayName": "Gigabyte Storage Capacity per Month",
+            "serviceCategoryDisplayName": "Big Data - Compute",
+            "serviceDefinition": {
+                "id": "558787698",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/558787698"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.0377
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.025133
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88308 - Oracle Big Data Cloud Service - Compute Edition - Storage Capacity - Gigabyte Storage Capacity Per Month",
+                    "shortDisplayName": "Storage Capacity",
+                    "metricDisplayName": "Gigabyte Storage Capacity per Month",
+                    "serviceCategoryDisplayName": "Big Data - Compute"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10068"
+        },
+        {
+            "id": "10082",
+            "partNumber": "B88287",
+            "partInventoryItemId": "3953545",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88287 - Oracle Java Cloud Service - Enterprise - OCPU Per Hour",
+            "shortDisplayName": "Enterprise",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Java",
+            "serviceDefinition": {
+                "id": "501515133",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/501515133"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.3097
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.206467
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88287 - Oracle Java Cloud Service - Enterprise - OCPU Per Hour",
+                    "shortDisplayName": "Enterprise",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Java"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10082"
+        },
+        {
+            "id": "10118",
+            "partNumber": "B88406",
+            "partInventoryItemId": "3967343",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88406 - Oracle Data Integrator Cloud Service - BYOL - OCPU Per Hour",
+            "shortDisplayName": "BYOL",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Data Integrator",
+            "serviceDefinition": {
+                "id": "501515133",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/501515133"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.1935
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.129
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88406 - Oracle Data Integrator Cloud Service - BYOL - OCPU Per Hour",
+                    "shortDisplayName": "BYOL",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Data Integrator"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10118"
+        },
+        {
+            "id": "10119",
+            "partNumber": "B88407",
+            "partInventoryItemId": "3967342",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88407 - Oracle SOA Suite Cloud Service - BYOL - OCPU Per Hour",
+            "shortDisplayName": "BYOL",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "SOA Suite",
+            "serviceDefinition": {
+                "id": "502541818",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/502541818"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.1935
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.129
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88407 - Oracle SOA Suite Cloud Service - BYOL - OCPU Per Hour",
+                    "shortDisplayName": "BYOL",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "SOA Suite"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10119"
+        },
+        {
+            "id": "10121",
+            "partNumber": "B88409",
+            "partInventoryItemId": "3954371",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "1 Pluggable Database (PDB) of Oracle Enterprise Edition running on Exadata.",
+            "displayName": "B88409 - Oracle Database Exadata Express Cloud Service - X250 - Hosted Environment Per Hour",
+            "shortDisplayName": "Exadata Express Cloud Service - X250",
+            "metricDisplayName": "Hosted Environment Per Hour",
+            "serviceCategoryDisplayName": "Exadata Express",
+            "serviceDefinition": {
+                "id": "539917625",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/539917625"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "EDITION",
+                    "value": "Exadata Express Cloud Service"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.4301
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.286733
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "1 Pluggable Database (PDB) of Oracle Enterprise Edition running on Exadata.",
+                    "displayName": "B88409 - Oracle Database Exadata Express Cloud Service - X250 - Hosted Environment Per Hour",
+                    "shortDisplayName": "Exadata Express Cloud Service - X250",
+                    "metricDisplayName": "Hosted Environment Per Hour",
+                    "serviceCategoryDisplayName": "Exadata Express",
+                    "eligibleSelections": [
+                        {
+                            "name": "EDITION",
+                            "value": "Exadata Express Cloud Service"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10121"
+        },
+        {
+            "id": "10125",
+            "partNumber": "B88330",
+            "partInventoryItemId": "3953521",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "1 OCPU\nNote: Additional OCPUs must be purchased in increments of 2 OCPUs",
+            "displayName": "B88330 - Oracle Cloud Infrastructure - Database Enterprise Edition Extreme Performance - Additional Capacity - OCPU Per Hour",
+            "shortDisplayName": "Enterprise Edition Extreme Performance - Additional Capacity",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Database - OCI",
+            "serviceDefinition": {
+                "id": "555815684",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/555815684"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "ADDITIONAL_CAPACITY",
+                    "value": "Additional Capacity"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1.3441
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.896067
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "1 OCPU\nNote: Additional OCPUs must be purchased in increments of 2 OCPUs",
+                    "displayName": "B88330 - Oracle Cloud Infrastructure - Database Enterprise Edition Extreme Performance - Additional Capacity - OCPU Per Hour",
+                    "shortDisplayName": "Enterprise Edition Extreme Performance - Additional Capacity",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Database - OCI",
+                    "eligibleSelections": [
+                        {
+                            "name": "ADDITIONAL_CAPACITY",
+                            "value": "Additional Capacity"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10125"
+        },
+        {
+            "id": "10051",
+            "partNumber": "B88385",
+            "partInventoryItemId": "3954361",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88385 - Free Oracle Cloud Promotion - Universal Credits",
+            "shortDisplayName": "Free Oracle Cloud Promotion - Metered",
+            "serviceCategoryDisplayName": "Oracle Cloud Promotion",
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 1
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88385 - Free Oracle Cloud Promotion - Universal Credits",
+                    "shortDisplayName": "Free Oracle Cloud Promotion - Metered",
+                    "serviceCategoryDisplayName": "Oracle Cloud Promotion"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10051"
+        },
+        {
+            "id": "10057",
+            "partNumber": "B88319",
+            "partInventoryItemId": "3953564",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88319 - Oracle Cloud Infrastructure - 100 Mbps Load Balancer - Load Balancer Hour",
+            "shortDisplayName": "100 Mbps Load Balancer",
+            "metricDisplayName": "Load Balancer Hour",
+            "serviceCategoryDisplayName": "Load Balancer",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.0213
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.0213
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88319 - Oracle Cloud Infrastructure - 100 Mbps Load Balancer - Load Balancer Hour",
+                    "shortDisplayName": "100 Mbps Load Balancer",
+                    "metricDisplayName": "Load Balancer Hour",
+                    "serviceCategoryDisplayName": "Load Balancer"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10057"
+        },
+        {
+            "id": "10089",
+            "partNumber": "B88514",
+            "partInventoryItemId": "3967386",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "Compute - Standard",
+            "displayName": "B88514 - Oracle Cloud Infrastructure - Compute - Virtual Machine Standard - X7 - OCPU Per Hour",
+            "shortDisplayName": "Compute - Virtual Machine Standard - X7",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Compute",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.0638
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.0638
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "Compute - Standard",
+                    "displayName": "B88514 - Oracle Cloud Infrastructure - Compute - Virtual Machine Standard - X7 - OCPU Per Hour",
+                    "shortDisplayName": "Compute - Virtual Machine Standard - X7",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Compute"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10089"
+        },
+        {
+            "id": "10095",
+            "partNumber": "B88515",
+            "partInventoryItemId": "3967387",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "Note: Additional OCPUs should be purchased in increments of 52 OCPUs Per Hour.",
+            "displayName": "B88515 - Oracle Cloud Infrastructure - Compute - Bare Metal Dense I/O - X7 - OCPU Per Hour",
+            "shortDisplayName": "Compute - Bare Metal Dense I/O - X7",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Compute Bare Metal",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.1275
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.1275
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "Note: Additional OCPUs should be purchased in increments of 52 OCPUs Per Hour.",
+                    "displayName": "B88515 - Oracle Cloud Infrastructure - Compute - Bare Metal Dense I/O - X7 - OCPU Per Hour",
+                    "shortDisplayName": "Compute - Bare Metal Dense I/O - X7",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Compute Bare Metal"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10095"
+        },
+        {
+            "id": "10130",
+            "partNumber": "B88410",
+            "partInventoryItemId": "3954365",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "1 Pluggable Database (PDB) of Oracle Enterprise Edition running on Exadata.",
+            "displayName": "B88410 - Oracle Database Exadata Express Cloud Service - X500 - Hosted Environment Per Hour",
+            "shortDisplayName": "Exadata Express Cloud Service - X500",
+            "metricDisplayName": "Hosted Environment Per Hour",
+            "serviceCategoryDisplayName": "Exadata Express",
+            "serviceDefinition": {
+                "id": "539917625",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/539917625"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "EDITION",
+                    "value": "Exadata Express Cloud Service"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.8603
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.573533
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "1 Pluggable Database (PDB) of Oracle Enterprise Edition running on Exadata.",
+                    "displayName": "B88410 - Oracle Database Exadata Express Cloud Service - X500 - Hosted Environment Per Hour",
+                    "shortDisplayName": "Exadata Express Cloud Service - X500",
+                    "metricDisplayName": "Hosted Environment Per Hour",
+                    "serviceCategoryDisplayName": "Exadata Express",
+                    "eligibleSelections": [
+                        {
+                            "name": "EDITION",
+                            "value": "Exadata Express Cloud Service"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10130"
+        },
+        {
+            "id": "10001",
+            "partNumber": "B88384",
+            "partInventoryItemId": "3967447",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88384 - Free Oracle Cloud Promotion - Commitment - Developer",
+            "shortDisplayName": "Free Oracle Cloud Promotion - Developer",
+            "serviceCategoryDisplayName": "Oracle Cloud Promotion",
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 1
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88384 - Free Oracle Cloud Promotion - Commitment - Developer",
+                    "shortDisplayName": "Free Oracle Cloud Promotion - Developer",
+                    "serviceCategoryDisplayName": "Oracle Cloud Promotion"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10001"
+        },
+        {
+            "id": "10002",
+            "partNumber": "B86731",
+            "partInventoryItemId": "3736128",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B86731 - Free Oracle Cloud Promotion",
+            "shortDisplayName": "B86731 - Free Oracle Cloud Promotion",
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 1
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B86731 - Free Oracle Cloud Promotion",
+                    "shortDisplayName": "B86731 - Free Oracle Cloud Promotion"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10002"
+        },
+        {
+            "id": "10040",
+            "partNumber": "B88400",
+            "partInventoryItemId": "3967341",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88400 - Oracle Java Cloud Service - High Performance - BYOL - OCPU Per Hour",
+            "shortDisplayName": "High Performance - BYOL",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Java",
+            "serviceDefinition": {
+                "id": "501515133",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/501515133"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.1935
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.129
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88400 - Oracle Java Cloud Service - High Performance - BYOL - OCPU Per Hour",
+                    "shortDisplayName": "High Performance - BYOL",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Java"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10040"
+        },
+        {
+            "id": "10046",
+            "partNumber": "B88331",
+            "partInventoryItemId": "3953569",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "1 OCPU\nNote: Additional OCPUs must be purchased in increments of 2 OCPUs",
+            "displayName": "B88331 - Oracle Cloud Infrastructure - Database Standard Edition - Additional Capacity - OCPU Per Hour",
+            "shortDisplayName": "Standard Edition - Additional Capacity",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Database - OCI",
+            "serviceDefinition": {
+                "id": "555815684",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/555815684"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "ADDITIONAL_CAPACITY",
+                    "value": "Additional Capacity"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.215
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.14333
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "1 OCPU\nNote: Additional OCPUs must be purchased in increments of 2 OCPUs",
+                    "displayName": "B88331 - Oracle Cloud Infrastructure - Database Standard Edition - Additional Capacity - OCPU Per Hour",
+                    "shortDisplayName": "Standard Edition - Additional Capacity",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Database - OCI",
+                    "eligibleSelections": [
+                        {
+                            "name": "ADDITIONAL_CAPACITY",
+                            "value": "Additional Capacity"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10046"
+        },
+        {
+            "id": "10048",
+            "partNumber": "B88855",
+            "partInventoryItemId": "3967376",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "44 enabled OCPUs.\nUp to 124 additional OCPU's (purchased separately).\n 4 DB nodes with 720 GB RAM per node.\n576 TB raw storage or 168 TB of usable storage.\nUnlimited I/Os.",
+            "displayName": "B88855 - Oracle Cloud Infrastructure - Database Exadata Half Rack - X6 - BYOL - Hosted Environment Per Hour",
+            "shortDisplayName": "Half Rack - X6 - BYOL (OCI)",
+            "metricDisplayName": "Hosted Environment Per Hour",
+            "serviceCategoryDisplayName": "Exadata",
+            "serviceDefinition": {
+                "id": "574323696",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/574323696"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "EDITION",
+                    "value": "Exadata Cloud Service - BYOL Edition"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 67.957
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 45.30467
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "44 enabled OCPUs.\nUp to 124 additional OCPU's (purchased separately).\n 4 DB nodes with 720 GB RAM per node.\n576 TB raw storage or 168 TB of usable storage.\nUnlimited I/Os.",
+                    "displayName": "B88855 - Oracle Cloud Infrastructure - Database Exadata Half Rack - X6 - BYOL - Hosted Environment Per Hour",
+                    "shortDisplayName": "Half Rack - X6 - BYOL (OCI)",
+                    "metricDisplayName": "Hosted Environment Per Hour",
+                    "serviceCategoryDisplayName": "Exadata",
+                    "eligibleSelections": [
+                        {
+                            "name": "EDITION",
+                            "value": "Exadata Cloud Service - BYOL Edition"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10048"
+        },
+        {
+            "id": "10005",
+            "partNumber": "B88460",
+            "partInventoryItemId": "3954323",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88460 - Oracle SOA Suite Cloud Service - OCPU Per Hour",
+            "shortDisplayName": "Standard",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "SOA Suite",
+            "serviceDefinition": {
+                "id": "502541818",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/502541818"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.7742
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.516133
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88460 - Oracle SOA Suite Cloud Service - OCPU Per Hour",
+                    "shortDisplayName": "Standard",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "SOA Suite"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10005"
+        },
+        {
+            "id": "10034",
+            "partNumber": "B88513",
+            "partInventoryItemId": "3967388",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "Note: Additional OCPUs should be purchased in increments of 52 OCPUs Per Hour.",
+            "displayName": "B88513 - Oracle Cloud Infrastructure - Compute - Bare Metal Standard - X7 - OCPU Per Hour",
+            "shortDisplayName": "Compute - Bare Metal Standard - X7",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Compute Bare Metal",
+            "serviceDefinition": {
+                "id": "546989214",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/546989214"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.0638
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.0638
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "Note: Additional OCPUs should be purchased in increments of 52 OCPUs Per Hour.",
+                    "displayName": "B88513 - Oracle Cloud Infrastructure - Compute - Bare Metal Standard - X7 - OCPU Per Hour",
+                    "shortDisplayName": "Compute - Bare Metal Standard - X7",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Compute Bare Metal"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10034"
+        },
+        {
+            "id": "10016",
+            "partNumber": "B88306",
+            "partInventoryItemId": "3953505",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88306 - Oracle Big Data Cloud Service - Compute Edition - High Performance Storage Capacity - Gigabyte Storage Capacity Per Month",
+            "shortDisplayName": "High Performance Storage Capacity",
+            "metricDisplayName": "Gigabyte Storage Capacity per Month",
+            "serviceCategoryDisplayName": "Big Data - Compute",
+            "serviceDefinition": {
+                "id": "558787698",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/558787698"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.0753
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.0502
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88306 - Oracle Big Data Cloud Service - Compute Edition - High Performance Storage Capacity - Gigabyte Storage Capacity Per Month",
+                    "shortDisplayName": "High Performance Storage Capacity",
+                    "metricDisplayName": "Gigabyte Storage Capacity per Month",
+                    "serviceCategoryDisplayName": "Big Data - Compute"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10016"
+        },
+        {
+            "id": "10038",
+            "partNumber": "B88289",
+            "partInventoryItemId": "3953625",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88289 - Oracle Java Cloud Service - High Performance - OCPU Per Hour",
+            "shortDisplayName": "High Performance",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Java",
+            "serviceDefinition": {
+                "id": "501515133",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/501515133"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.7742
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.516133
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88289 - Oracle Java Cloud Service - High Performance - OCPU Per Hour",
+                    "shortDisplayName": "High Performance",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Java"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10038"
+        },
+        {
+            "id": "10015",
+            "partNumber": "B88307",
+            "partInventoryItemId": "3953554",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88307 - Oracle Big Data Cloud Enterprise - Compute Capacity - OCPU Per Hour",
+            "shortDisplayName": "Compute Capacity",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Big Data - Compute",
+            "serviceDefinition": {
+                "id": "558787698",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/558787698"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.1291
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.086067
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88307 - Oracle Big Data Cloud Enterprise - Compute Capacity - OCPU Per Hour",
+                    "shortDisplayName": "Compute Capacity",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Big Data - Compute"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10015"
+        },
+        {
+            "id": "10017",
+            "partNumber": "B89162",
+            "partInventoryItemId": "4122272",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "Oracle Management Cloud Enterprise Edition (B89162) includes: Application \nPerformance Monitoring, Infrastructure Monitoring, Orchestration and IT \nAnalytics. One unit of Enterprise Edition covers 100 entities per hour and 13 \nmonths data retention.",
+            "displayName": "B89162 - Oracle Management Cloud - Enterprise Edition - 100 Entities Per Hour",
+            "shortDisplayName": "Enterprise Edition",
+            "metricDisplayName": "100 Entities Per Hour",
+            "serviceCategoryDisplayName": "Management",
+            "serviceDefinition": {
+                "id": "593033767",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/593033767"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "EDITION",
+                    "value": "Enterprise Edition"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 1.3441
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.896067
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "Oracle Management Cloud Enterprise Edition (B89162) includes: Application \nPerformance Monitoring, Infrastructure Monitoring, Orchestration and IT \nAnalytics. One unit of Enterprise Edition covers 100 entities per hour and 13 \nmonths data retention.",
+                    "displayName": "B89162 - Oracle Management Cloud - Enterprise Edition - 100 Entities Per Hour",
+                    "shortDisplayName": "Enterprise Edition",
+                    "metricDisplayName": "100 Entities Per Hour",
+                    "serviceCategoryDisplayName": "Management",
+                    "eligibleSelections": [
+                        {
+                            "name": "EDITION",
+                            "value": "Enterprise Edition"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10017"
+        },
+        {
+            "id": "10006",
+            "partNumber": "B88461",
+            "partInventoryItemId": "3954324",
+            "language": "en",
+            "currencyCode": "USD",
+            "displayName": "B88461 - Oracle Messaging Cloud Service - 1,000,000 API Calls per Month",
+            "shortDisplayName": "Standard",
+            "metricDisplayName": "1,000,000 API Calls per Month",
+            "serviceCategoryDisplayName": "Messaging",
+            "serviceDefinition": {
+                "id": "501445523",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/501445523"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.2
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.133
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "displayName": "B88461 - Oracle Messaging Cloud Service - 1,000,000 API Calls per Month",
+                    "shortDisplayName": "Standard",
+                    "metricDisplayName": "1,000,000 API Calls per Month",
+                    "serviceCategoryDisplayName": "Messaging"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10006"
+        },
+        {
+            "id": "10013",
+            "partNumber": "B88846",
+            "partInventoryItemId": "3967349",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "1 OCPU",
+            "displayName": "B88846 - Oracle Cloud Infrastructure - Database All Editions - Additional Capacity - BYOL - OCPU Per Hour",
+            "shortDisplayName": "Database All Editions - Additional Capacity - BYOL",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Database - OCI",
+            "serviceDefinition": {
+                "id": "555815684",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/555815684"
+            },
+            "eligibleSelections": [
+                {
+                    "name": "ADDITIONAL_CAPACITY",
+                    "value": "Additional Capacity"
+                }
+            ],
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.1935
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.129
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "1 OCPU",
+                    "displayName": "B88846 - Oracle Cloud Infrastructure - Database All Editions - Additional Capacity - BYOL - OCPU Per Hour",
+                    "shortDisplayName": "Database All Editions - Additional Capacity - BYOL",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Database - OCI",
+                    "eligibleSelections": [
+                        {
+                            "name": "ADDITIONAL_CAPACITY",
+                            "value": "Additional Capacity"
+                        }
+                    ]
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10013"
+        },
+        {
+            "id": "10014",
+            "partNumber": "B88847",
+            "partInventoryItemId": "3967353",
+            "language": "en",
+            "currencyCode": "USD",
+            "description": "Additional enabled OCPUs.",
+            "displayName": "B88847 - Oracle Cloud Infrastructure - Database Exadata OCPU - BYOL - OCPU Per Hour",
+            "shortDisplayName": "Additional OCPU's - BYOL (OCI)",
+            "metricDisplayName": "OCPU Per Hour",
+            "serviceCategoryDisplayName": "Exadata",
+            "serviceDefinition": {
+                "id": "574323696",
+                "canonicalLink": "/itas/.anon/myservices/api/v1/serviceDefinitions/574323696"
+            },
+            "prices": [
+                {
+                    "model": "PAY_AS_YOU_GO",
+                    "value": 0.3226
+                },
+                {
+                    "model": "MONTHLY_COMMIT",
+                    "value": 0.215067
+                }
+            ],
+            "languageLocalizations": [
+                {
+                    "language": "en",
+                    "description": "Additional enabled OCPUs.",
+                    "displayName": "B88847 - Oracle Cloud Infrastructure - Database Exadata OCPU - BYOL - OCPU Per Hour",
+                    "shortDisplayName": "Additional OCPU's - BYOL (OCI)",
+                    "metricDisplayName": "OCPU Per Hour",
+                    "serviceCategoryDisplayName": "Exadata"
+                }
+            ],
+            "canonicalLink": "/itas/.anon/myservices/api/v1/products/10014"
+        }
+    ],
+    "canonicalLink": "/itas/.anon/myservices/api/v1/products",
+    "hasMore": true,
+    "limit": 50,
+    "offset": 0,
+    "nextLink": "/itas/.anon/myservices/api/v1/products?offset=50&limit=50"
+}

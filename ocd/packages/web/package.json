@@ -1,0 +1,24 @@
+{
+  "name": "@ocd/web",
+  "version": "0.3.0",
+  "description": "OKIT Open Cloud Designer Web Interface",
+  "title": "OKIT Open Cloud Designer Web Interface",
+  "author": {
+    "name": "Andrew Hopkinson",
+    "email": "andrew.hopkinson@oracle.com",
+    "url": "https://github.com/oracle/oci-designer-toolkit"
+  },
+  "bugs": "https://github.com/oracle/oci-designer-toolkit/issues",
+  "keywords": [
+    "ocd",
+    "okit"
+  ],
+  "license": "UPL-1.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "cp -v ../react/src/css/*.css ./src/css || copy /y ../react/src/css/*.css ./src/css",
+    "build": ""
+  }
+}

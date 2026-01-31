@@ -1,0 +1,29 @@
+---
+# file: docker-compose
+# Copyright (c) 2020, 2024, Oracle and/or its affiliates.
+# Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+version: '3.8'
+
+networks:
+  okit-network:
+    driver: bridge
+
+services:
+  okit:
+    build:
+      context: ../../
+      dockerfile: ./containers/docker/Dockerfile
+    image: okit
+    container_name: okit
+    networks:
+      - okit-network
+    ports:
+      - 9005:80/tcp
+    volumes:
+      - /home/ubuntu/okit/oci:/root/.oci
+      - /home/ubuntu/okit/ssh:/root/.ssh
+      - /home/ubuntu/okit/log:/okit/log
+      - /home/ubuntu/okit/git:/okit/instance/git
+      - /home/ubuntu/okit/local:/okit/instance/local
+      - /home/ubuntu/okit/templates/user:/okit/instance/templates/user
+...

@@ -1,0 +1,12 @@
+# Copyright (c) 2020, 2024, Oracle and/or its affiliates. 
+# Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl. 
+authlib>=0.15.3
+flask>=1.1.2
+gitpython
+git-url-parse
+gunicorn>=20.0.4
+oci
+openpyxl
+python-magic>=0.4.22
+pyyaml>=5.4.1
+requests>=2.25.1

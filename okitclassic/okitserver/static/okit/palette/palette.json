@@ -1,0 +1,344 @@
+{
+    "targets": ["oci", "freetier", "pca", "c3"],
+    "groups": [
+        {
+            "title": "Containers",
+            "targets": ["oci", "freetier", "pca", "c3"],
+            "svg": "containers.svg",
+            "resources": [
+                {
+                    "title": "Compartment",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "Compartments.svg"
+                },
+                {
+                    "title": "OKE Cluster",
+                    "targets": ["oci"],
+                    "svg": "ContainerEngineForKubernetes.svg"
+                },
+                {
+                    "title": "Node Pool",
+                    "targets": ["oci"],
+                    "svg": "NodePool.svg"
+                },
+                {
+                    "title": "Data Integration Workspace",
+                    "targets": ["oci"],
+                    "svg": "DataIntegrationSystemDIS.svg"
+                }
+            ]
+        },
+        {
+            "title": "Compute",
+            "targets": ["oci", "freetier", "pca", "c3"],
+            "svg": "compute.svg",
+            "resources": [
+                {
+                    "title": "Instance",
+                    "targets": ["oci", "freetier", "pca", "c3"],
+                    "svg": "VirtualMachine.svg"
+                },
+                {
+                    "title": "Analytics Instance",
+                    "targets": ["oci"],
+                    "svg": "AnalyticsCloudService.svg"
+                },
+                {
+                    "title": "Bare Metal Compute",
+                    "targets": ["hidden"],
+                    "svg": "BareMetalCompute.svg"
+                },
+                {
+                    "title": "Oracle Digital Assistant",
+                    "targets": ["oci"],
+                    "svg": "OracleDigitalAssistantODA.svg"
+                },
+                {
+                    "title": "Visual Builder Instance",
+                    "targets": ["oci"],
+                    "svg": "VisualBuilderInstance.svg"
+                },
+                {
+                    "title": "Data Science Project",
+                    "targets": ["oci"],
+                    "svg": "DataScience.svg"
+                },
+                {
+                    "title": "Integration Instance",
+                    "targets": ["oci"],
+                    "svg": "DataIntegrator.svg"
+                },
+                {
+                    "title": "Instance Configuration",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "VirtualMachineApplication.svg"
+                },
+                {
+                    "title": "Instance Pool",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "InstancePools.svg"
+                },
+                {
+                    "title": "Autoscaling Configuration",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "Autoscaling.svg"
+                }
+            ]
+        },
+        {
+            "title": "Database",
+            "targets": ["oci"],
+            "svg": "database.svg",
+            "resources": [
+                {
+                    "title": "Autonomous Database",
+                    "targets": ["oci"],
+                    "svg": "AutonomousDatabaseCloudServiceADCS.svg"
+                },
+                {
+                    "title": "Autonomous Data Warehouse",
+                    "targets": ["hidden"],
+                    "svg": "AutonomousDataWarehouse.svg"
+                },
+                {
+                    "title": "Autonomous Transaction Processing",
+                    "targets": ["hidden"],
+                    "svg": "AutonomousTransactionProcessingATP.svg"
+                },
+                {
+                    "title": "Autonomous APEX",
+                    "targets": ["hidden"],
+                    "svg": "APEX.svg"
+                },
+                {
+                    "title": "Database System",
+                    "targets": ["oci"],
+                    "svg": "DatabaseSystemDBS.svg"
+                },
+                {
+                    "title": "MySQL Database System",
+                    "targets": ["oci"],
+                    "svg": "MySQLDatabaseServiceMDS.svg"
+                },
+                {
+                    "title": "NoSQL Database",
+                    "targets": ["oci", "freetier"],
+                    "svg": "NoSQLDatabase.svg"
+                },
+                {
+                    "title": "Autonomous Data Warehouse Cloud Service",
+                    "targets": ["hidden"],
+                    "svg": "AutonomousDataWarehouseCloudService.svg"
+                },
+                {
+                    "title": "Exadata Cloud Infrastructure",
+                    "targets": ["oci"],
+                    "svg": "ExadataDatabaseSystem.svg"
+                },
+                {
+                    "title": "Exadata Database System",
+                    "targets": ["hidden"],
+                    "svg": "ExadataDatabaseSystem.svg"
+                }
+            ]
+        },
+        {
+            "title": "Networking",
+            "targets": ["oci", "freetier", "pca", "c3"],
+            "svg": "networking.svg",
+            "resources": [
+                {
+                    "title": "Load Balancer",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "LoadBalancerLB.svg"
+                },
+                {
+                    "title": "Network Load Balancer",
+                    "targets": ["oci", "pca", "freetier"],
+                    "svg": "NetworkLoadBalancerLB.svg"
+                },
+                {
+                    "title": "Virtual Cloud Network",
+                    "targets": ["oci", "freetier", "pca", "c3"],
+                    "svg": "VirtualCloudNetworkVCN.svg"
+                },
+                {
+                    "title": "Subnet",
+                    "targets": ["oci", "freetier", "pca", "c3"],
+                    "svg": "Backbone.svg"
+                },
+                {
+                    "title": "Route Table",
+                    "targets": ["oci", "freetier", "pca", "c3"],
+                    "svg": "RouteTable.svg"
+                },
+                {
+                    "title": "Security List",
+                    "targets": ["oci", "freetier", "pca", "c3"],
+                    "svg": "SecurityList.svg"
+                },
+                {
+                    "title": "Network Security Group",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "NetworkSecurityGroup.svg"
+                },
+                {
+                    "title": "DHCP Option",
+                    "targets": ["oci", "freetier", "pca", "c3"],
+                    "svg": "DHCPOptions.svg"
+                },
+                {
+                    "title": "DNS Zone",
+                    "targets": ["hidden"],
+                    "svg": "DomainNameSystemDNS.svg"
+                },
+                {
+                    "title": "Network Firewall",
+                    "targets": ["oci"],
+                    "svg": "NetworkFirewall.svg"
+                },
+                {
+                    "title": "Web Application Firewall",
+                    "targets": ["hidden"],
+                    "svg": "WebApplicationFirewall.svg"
+                },
+                {
+                    "title": "IPSec Connection",
+                    "targets": ["oci", "freetier"],
+                    "svg": "VirtualPrivateNetworkVPN.svg"
+                },
+                {
+                    "title": "Remote Peering Connection",
+                    "targets": ["oci"],
+                    "svg": "RemotePeeringGatewayRPG.svg"
+                },
+                {
+                    "title": "Customer Premise Equipment",
+                    "targets": ["oci", "freetier"],
+                    "svg": "CustomerPremises.svg"
+                }
+            ]
+        },
+        {
+            "title": "Gateways",
+            "targets": ["oci", "freetier", "pca", "c3"],
+            "svg": "gateways.svg",
+            "resources": [
+                {
+                    "title": "Internet Gateway",
+                    "targets": ["oci", "freetier", "pca", "c3"],
+                    "svg": "InternetGateway.svg"
+                },
+                {
+                    "title": "NAT Gateway",
+                    "targets": ["oci", "freetier", "pca", "c3"],
+                    "svg": "NATGateway.svg"
+                },
+                {
+                    "title": "Local Peering Gateway",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "LocalPeeringGatewayLPG.svg"
+                },
+                {
+                    "title": "DRG Attachment",
+                    "targets": ["oci", "freetier"],
+                    "svg": "DRGAttachment.svg"
+                },
+                {
+                    "title": "Dynamic Routing Gateway Attachment",
+                    "targets": ["hidden"],
+                    "svg": "DRGAttachment.svg"
+                },
+                {
+                    "title": "Dynamic Routing Gateway",
+                    "targets": ["pca", "c3", "hidden"],
+                    "svg": "DynamicRoutingGatewayDRG.svg"
+                },
+                {
+                    "title": "DRG",
+                    "targets": ["oci", "freetier"],
+                    "svg": "DynamicRoutingGatewayDRG.svg"
+                },
+                {
+                    "title": "Service Gateway",
+                    "targets": ["oci"],
+                    "svg": "ServiceGateway.svg"
+                }
+            ]
+        },
+        {
+            "title": "Storage",
+            "targets": ["oci", "freetier", "pca", "c3"],
+            "svg": "storage.svg",
+            "resources": [
+                {
+                    "title": "Block Storage Volume",
+                    "targets": ["oci", "freetier", "pca", "c3"],
+                    "svg": "BlockStorage.svg"
+                },
+                {
+                    "title": "Object Storage Bucket",
+                    "targets": ["oci"],
+                    "svg": "Buckets.svg"
+                },
+                {
+                    "title": "Mount Target",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "MountTarget.svg"
+                },
+                {
+                    "title": "File System",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "FileSystem.svg"
+                }
+            ]
+        },
+        {
+            "title": "Identity",
+            "targets": ["oci", "freetier", "pca", "c3"],
+            "svg": "identity.svg",
+            "resources": [
+                {
+                    "title": "Bastion",
+                    "targets": ["oci"],
+                    "svg": "Bastion.svg"
+                },
+                {
+                    "title": "Policy",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "Policies.svg"
+                },
+                {
+                    "title": "Dynamic Group",
+                    "targets": ["oci", "pca", "c3"],
+                    "svg": "DynamicGroup.svg"
+                },
+                {
+                    "title": "User",
+                    "targets": ["hidden"],
+                    "svg": "User.svg"
+                },
+                {
+                    "title": "Group",
+                    "targets": ["hidden"],
+                    "svg": "UserGroup.svg"
+                },
+                {
+                    "title": "Vault",
+                    "targets": ["oci", "freetier"],
+                    "svg": "Vault.svg"
+                },
+                {
+                    "title": "Vault Secret",
+                    "targets": ["oci", "freetier"],
+                    "svg": "VaultSecret.svg"
+                },
+                {
+                    "title": "Key",
+                    "targets": ["oci", "freetier"],
+                    "svg": "KeyManagement.svg"
+                }
+            ]
+        }
+   ]
+}

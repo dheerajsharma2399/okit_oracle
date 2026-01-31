@@ -1,0 +1,73 @@
+{
+  "name": "ocd",
+  "version": "0.3.0",
+  "description": "OKIT Open Cloud Designer Desktop",
+  "title": "OKIT-Desktop April 2025 (Beta)",
+  "author": {
+    "name": "Andrew Hopkinson",
+    "email": "andrew.hopkinson@oracle.com",
+    "url": "https://github.com/oracle/oci-designer-toolkit"
+  },
+  "bugs": "https://github.com/oracle/oci-designer-toolkit/issues",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/oracle/oci-designer-toolkit.git",
+    "directory": "ocd"
+  },
+  "keywords": [
+    "ocd",
+    "okit"
+  ],
+  "license": "UPL-1.0",
+  "main": "index.js",
+  "scripts": {
+    "github-action-install": "npm install --legacy-peer-deps ",
+    "github-action-compile-for-codegen": "npm run compile --workspace=packages/core --workspace=packages/codegen --workspace=packages/codegen-cli",
+    "github-action-generate": "npm run import-and-generate --workspace=packages/codegen-cli && npm run generate-ocd-build-date --workspace=packages/codegen-cli && npm run generate-ocd-svg-css-desktop --workspace=packages/codegen-cli",
+    "github-action-compile": "npm run compile --workspaces --if-present",
+    "github-action-pack": "npm run pack --workspaces --if-present",
+    "github-action-build": "npm run build --workspaces --if-present",
+    "github-action-build-macos-x86": "npm run make-macos-x64 --workspace=packages/desktop --if-present",
+    "github-action-build-react": "npm run build-react-scripts --workspace=packages/desktop",
+    "github-action-build-electron": "npm run electron-pack --workspace=packages/desktop",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-and-codegen": "npm install --legacy-peer-deps && npm run compile-for-codegen && npm run import-and-generate && npm run build",
+    "fresh-install": "npm run install-and-codegen",
+    "new-install": "npm run github-action-install && npm run github-action-compile-for-codegen && npm run github-action-generate && npm run github-action-build",
+    "reinstall": "npm run purge && npm run new-install",
+    "clean": "npm run clean --workspaces --if-present && rm -rf lib dist build",
+    "purge": "npm run purge --workspaces --if-present && rm -rf node_modules lib dist build",
+    "build": "npm run build --workspaces --if-present",
+    "rebuild": "npm run clean && npm run build",
+    "compile": "npm run compile --workspaces --if-present",
+    "pack": "npm run pack --workspaces --if-present",
+    "compile-for-codegen": "npm run compile --workspace=packages/core --workspace=packages/codegen --workspace=packages/codegen-cli",
+    "import-and-generate": "npm run import-and-generate --workspace=packages/codegen-cli",
+    "desktop": "npm run desktop --workspace=packages/desktop",
+    "web": "npm run web --workspace=packages/desktop",
+    "dev-desktop": "npm run build && npm run desktop"
+  },
+  "workspaces": [
+    "packages/core",
+    "packages/codegen",
+    "packages/model",
+    "packages/query",
+    "packages/parser",
+    "packages/import",
+    "packages/export",
+    "packages/react",
+    "packages/web",
+    "packages/desktop",
+    "packages/cli",
+    "packages/codegen-cli"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/node-fetch": "^2.6.11",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

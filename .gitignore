@@ -1,0 +1,105 @@
+# IDE Directories and Files
+.idea
+**/*.iml
+**/.DS_Store
+
+.vscode
+.vscode/*.json
+.vscode/settings.json
+
+.scannerwork
+
+# Python Environments
+venv/
+.venv/
+
+# Python Cache
+*.pyc
+__pycache__/
+.pytest_cache/
+*.egg-info/
+okit.wpr
+
+# Node / React / Electron / Vite
+**/dist/
+**/build/
+**/node_modules
+**/out/
+**/lib/
+**/.vite/
+**/*.tsbuildinfo
+# **/package-lock.json
+
+# Terraform
+**/.terraform*
+
+# Containers
+.vagrant
+containers/.oci
+**/*.pem
+containers/oci/*
+!containers/oci/example_config
+!containers/cloud
+containers/ssh/*
+!containers/ssh/example_config
+
+!okitweb/static/model
+/docker-compose.yml
+/lima-compose.yml
+/containers/runtime/
+/containers/lima/
+/containers/vbox/
+
+# Auto Generated Code that can be created during build
+**/resources/generated/*.ts
+**/resources/generated/*.tsx
+# **/packages/**/provider/*/resources.ts
+**/model/src/validator/provider/azure/resources.ts
+**/model/src/validator/provider/google/resources.ts
+**/model/src/validator/provider/oci/resources.ts
+**/model/src/provider/azure/resources.ts
+**/model/src/provider/google/resources.ts
+**/model/src/provider/oci/resources.ts
+# **/export/src/terraform/provider/azure/resources.ts
+# **/export/src/terraform/provider/google/resources.ts
+# **/export/src/terraform/provider/oci/resources.ts
+# **/export/src/markdown/provider/azure/resources.ts
+# **/export/src/markdown/provider/google/resources.ts
+# **/export/src/markdown/provider/oci/resources.ts
+**/export/src/*/provider/azure/resources.ts
+**/export/src/*/provider/google/resources.ts
+**/export/src/*/provider/oci/resources.ts
+**/import/src/*/provider/oci/resources.ts
+**/import/src/*/provider/oci/OciResourceBuilder.ts
+**/react/src/components/tabular/provider/azure/resources.ts
+**/react/src/components/tabular/provider/google/resources.ts
+**/react/src/components/tabular/provider/oci/resources.ts
+**/react/src/components/properties/provider/azure/resources.ts
+**/react/src/components/properties/provider/google/resources.ts
+**/react/src/components/properties/provider/oci/resources.ts
+
+# Copied css files
+**/desktop/src/css/*.css
+**/web/src/css/*.css
+
+# Runtime Generated Files
+okitclassic/okitserver/static/okit/json/dropdown_data/*
+okitclassic/okitserver/static/okit/templates/user/*
+okitclassic/okitserver/static/okit/json/dropdown/profiles/*
+okitclassic/okitserver/static/okit/json/cache.json
+output/
+log/
+/instance/
+okitclassic/instance/
+
+# Testing
+test
+**/test/model
+**/test/properties
+workspace
+
+# Others
+.coverage
+htmlcov/
+
+# Build
