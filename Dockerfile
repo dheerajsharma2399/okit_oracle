@@ -40,20 +40,16 @@ RUN apt-get update \
 # Upgrade pip
  && python3 -m pip install --upgrade pip \
 # Create Workspace
- && mkdir -p ${OKIT_GITHUB_DIR} \
- && echo "Branch: $BRANCH" \
- && git clone --branch $BRANCH --single-branch \
-            --config core.autocrlf=input \
-            https://github.com/oracle/oci-designer-toolkit.git ${OKIT_GITHUB_DIR}/oci-designer-toolkit \
  && mkdir -p ${OKIT_DIR}/{git,local,log,instance/git,instance/local,instance/templates/user,workspace,ssl} \
- && mkdir -p /root/bin \
- && ln -sv ${OKIT_GITHUB_DIR}/oci-designer-toolkit/okitclassic/config ${OKIT_DIR}/config \
- && ln -sv ${OKIT_GITHUB_DIR}/oci-designer-toolkit/okitclassic/okitserver ${OKIT_DIR}/okitserver \
- && ln -sv ${OKIT_GITHUB_DIR}/oci-designer-toolkit/okitclassic/modules ${OKIT_DIR}/modules \
- && ln -sv ${OKIT_GITHUB_DIR}/oci-designer-toolkit/okitclassic/containers/docker/run-server.sh /root/bin/run-server.sh \
- && ln -sv ${OKIT_GITHUB_DIR}/oci-designer-toolkit/okitclassic/okitserver/static/okit/templates/reference_architecture ${OKIT_DIR}/instance/templates/reference_architecture \
- && chmod a+x /root/bin/run-server.sh \
+ && mkdir -p /root/bin
+# Copy local code
+COPY okitclassic/config ${OKIT_DIR}/config
+COPY okitclassic/okitserver ${OKIT_DIR}/okitserver
+COPY okitclassic/modules ${OKIT_DIR}/modules
+COPY okitclassic/containers/docker/run-server.sh /root/bin/run-server.sh
+COPY okitclassic/okitserver/static/okit/templates/reference_architecture ${OKIT_DIR}/instance/templates/reference_architecture
+RUN chmod a+x /root/bin/run-server.sh \
 # Install required python modules
- && python3 -m pip install --no-cache-dir -r ${OKIT_GITHUB_DIR}/oci-designer-toolkit/requirements.txt
+ && python3 -m pip install --no-cache-dir -r ./requirements.txt
 # Add entrypoint to automatically start webserver
 CMD ["run-server.sh"]
