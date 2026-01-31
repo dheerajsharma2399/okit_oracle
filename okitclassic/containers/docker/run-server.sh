@@ -9,13 +9,6 @@ echo "**  Run WebServer                                                **"
 echo "**                                                               **"
 echo "*******************************************************************"
 
-export PYTHONIOENCODING=utf8
-export OKIT_DIR=/okit
-export OKIT_GITHUB_DIR=/okit_github
-export OKIT_LOGFILE=${OKIT_DIR}/log/okit.log
-export PYTHONPATH=:${OKIT_DIR}/modules:${OKIT_DIR}/okitserver:${OKIT_DIR}
-export PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
-
 python3 --version
 
 /usr/local/bin/gunicorn okitserver.wsgi:app --config /okit/config/gunicorn_http.py
